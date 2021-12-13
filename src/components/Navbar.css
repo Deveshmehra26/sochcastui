@@ -1,0 +1,31 @@
+
+button {
+    padding: 13px 38px;
+    font-size: 14px;
+    /* font-weight: bold; */
+    line-height: 1;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background: #f1622a;
+    background-clip: padding-box;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  button::after {
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: linear-gradient(to right, #3acfd5, #be5a97);
+    content: '';
+    z-index: -1;
+    border-radius: 8px;
+  }
+
+
+
