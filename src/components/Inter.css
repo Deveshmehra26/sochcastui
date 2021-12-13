@@ -1,7 +1,8 @@
 .interbox {
-  background-color: violet;
+  background-color: #23213D;
   text-align: left;
   overflow-x: hidden;
+  height: 88vh;
 }
 
 .hum {
@@ -27,7 +28,7 @@
 .rect{
     position: absolute;
     right: 0px;
-    bottom: 32px;
+    bottom: 0px;
 }
 .circle, .circle1, .circle2, .circle3{
     position: relative;

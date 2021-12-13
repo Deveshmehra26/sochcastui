@@ -32,7 +32,7 @@ function InterFace() {
             <br /> Suniao aur Suno
             <br /> Duniya Ki Soch
           </h1>
-          <p className="mt-4">
+          <p className="mt-4 text-white">
             Explore and sharean extensive collective of high quality <br />
             audio from artist and creators around the world.
           </p>

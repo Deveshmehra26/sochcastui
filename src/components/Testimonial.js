@@ -1,5 +1,9 @@
 import React from "react";
 import "./Testimonial.css";
+import ping from "../img/PngItem_3375242 1.png";
+import darrow from "../img/vuesax-linear-arrow-right.svg";
+import arrow from "../img/arrow-right.svg";
+import slogo from "../img/sochlogo.png";
 import {
   Row,
   Col,
@@ -17,15 +21,42 @@ import {
 function Testimonial() {
   return (
     <div className="testbox my-md-5 px-md-5">
+
       <Container>
-        <h5 className="testimonial">Testimonial</h5>
+        <div>
+          <Card className="main">
+            <CardBody>
+              <Row>
+                <Col md="3">
+                  <img src={slogo} className="slogo" />
+                </Col>
+                <Col md="6">
+                  <p className="text-white my-5">
+                    Explore and share an extensive collection of high-quality
+                    audio from artists and creators around the world.
+                  </p>
+                </Col>
+                <Col
+                  md={{
+                    offset: 1,
+                    size: 2,
+                  }}
+                >
+                  <img src={arrow} className="sarrow my-5" />
+                </Col>
+              </Row>
+            </CardBody>
+          </Card>
+        </div>
+      </Container>
+
+
+      <Container>
+        <h5 className="testimonial my-5">Testimonial</h5>
         <Row md="2">
           <Col className="" md="8">
-            <h1>
-              Creator-obessed,
-              <br />
-              community-focused
-            </h1>
+            <h1>Creator-obessed,</h1>
+            <h1>community-focused</h1>
           </Col>
           <Col className="px-5" md="4">
             <p>
@@ -35,16 +66,20 @@ function Testimonial() {
             </p>
           </Col>
         </Row>
-
         <Row className="">
           <Col md="4">
             <div>
               <Card className="testcard">
                 <CardBody>
-                  <CardTitle tag="h5">Card title</CardTitle>
-                  <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    Card subtitle
-                  </CardSubtitle>
+                  <Row>
+                    <Col md="3">
+                      <img src={ping} className="imgthumb mx-3" alt="frame" />
+                    </Col>
+                    <Col md="9">
+                      <h5>Yasmine Gloria</h5>
+                      <p>Coustomer</p>
+                    </Col>
+                  </Row>
                   <hr />
                   <CardText>
                     A cool place to relax, the food is also delicious and there
@@ -58,10 +93,15 @@ function Testimonial() {
           <Col md="4">
             <Card className="testcard">
               <CardBody>
-                <CardTitle tag="h5">Card title</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Card subtitle
-                </CardSubtitle>
+                <Row>
+                  <Col md="3">
+                    <img src={ping} className="imgthumb mx-3" alt="frame" />
+                  </Col>
+                  <Col md="9">
+                    <h5>Yasmine Gloria</h5>
+                    <p>Coustomer</p>
+                  </Col>
+                </Row>
                 <hr />
                 <CardText>
                   Friendly service as well as good food affordable prices,
@@ -74,10 +114,15 @@ function Testimonial() {
           <Col md="4">
             <Card className="testcard">
               <CardBody>
-                <CardTitle tag="h5">Card title</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Card subtitle
-                </CardSubtitle>
+                <Row>
+                  <Col md="3">
+                    <img src={ping} className="imgthumb mx-3" alt="frame" />
+                  </Col>
+                  <Col md="9">
+                    <h5>Yasmine Gloria</h5>
+                    <p>Coustomer</p>
+                  </Col>
+                </Row>
                 <hr />
                 <CardText>
                   A cool place to relax, the food is also delicious and there is
@@ -88,6 +133,9 @@ function Testimonial() {
             </Card>
           </Col>
         </Row>
+        <div className="arrow my-3">
+          <img src={darrow} />
+        </div>
       </Container>
     </div>
   );
