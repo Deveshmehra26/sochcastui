@@ -21,7 +21,6 @@ import {
 function Testimonial() {
   return (
     <div className="testbox my-md-5 px-md-5">
-
       <Container>
         <div>
           <Card className="main">
@@ -50,10 +49,9 @@ function Testimonial() {
         </div>
       </Container>
 
-
       <Container>
         <h5 className="testimonial my-5">Testimonial</h5>
-        <Row md="2">
+        <Row>
           <Col className="" md="8">
             <h1>Creator-obessed,</h1>
             <h1>community-focused</h1>
@@ -133,9 +131,16 @@ function Testimonial() {
             </Card>
           </Col>
         </Row>
-        <div className="arrow my-3">
-          <img src={darrow} />
-        </div>
+        <Row className="mt-4">
+          <Col
+            md={{
+              offset: 11,
+              size: 2,
+            }}
+          >
+            <img src={darrow} />
+          </Col>
+        </Row>
       </Container>
     </div>
   );

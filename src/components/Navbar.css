@@ -1,4 +1,11 @@
 
+.navcont{
+  background-color: #23213D;
+  height: 13vh;
+}
+.navimg{
+  height: 70px;
+}
 button {
     padding: 13px 38px;
     font-size: 14px;

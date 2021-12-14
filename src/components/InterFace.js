@@ -5,10 +5,6 @@ import hum from "../img/[removal.ai]_tmp-61920efd6e5ee.png";
 import frame from "../img/Frame 4079.svg";
 import frame1 from "../img/Frame 4080.svg";
 import rectangle from "../img/Rectangle 431.svg";
-import circle from "../img/Ellipse 164-1.svg";
-import circle1 from "../img/Ellipse 2.svg";
-import circle2 from "../img/Ellipse 3.svg";
-import circle3 from "../img/Ellipse 164.svg";
 
 function InterFace() {
   return (

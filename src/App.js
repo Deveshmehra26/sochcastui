@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <InterFace></InterFace>
+      {/* <InterFace></InterFace> */}
       <Testimonial></Testimonial>
-      <Stream></Stream>
+      {/* <Stream></Stream>
       <Service></Service>
-      <Find></Find>
+      <Find></Find> */}
     </div>
   );
 }
